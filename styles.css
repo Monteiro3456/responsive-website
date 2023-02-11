@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+.mobile-img {
+    width: 15px;
+    display: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-section1 img {
+    width: 20px;
+}
+
+
+.nav-class ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.nav-class a:hover {
+    color: aqua;
+}
+
+/* ection 1 code */
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.section1-right img {
+    width: 700px;
+}
+
+.left-section1 img{
+    display: inline;
+
+}
+
+.left-section1 h2 {
+    display: inline;
+}
+
+.btn {
+    padding: 5px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.left-section1 h1 {
+    font-size:40px;
+}
+
+.left-section1 p {
+    color: yellow;
+}
+
+/* project section */
+
+
+.project-section{
+    padding-top: 30px;
+}
+
+.project-section h1 {
+    text-align: center;
+}
+
+/* .prs-div1 img {
+    width: 500px;
+
+} */
+
+
+/* .prs-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+} */
+
+
+
+
+
+/* .prs-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+} */
+
+.projects div img {
+    width: 400px;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns: 410px 410px;
+    justify-content: center;
+
+}
+
+.project-section div {
+    text-align: center;
+}
+
+.project-section h1 {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+/* Footer section */
+
+.footer-section img {
+    width: 20px;
+}
+
+.footer-section {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-section h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.footer-section a {
+    padding: 5px;
+}
+
+.footer-section a:hover{
+    background-color: blueviolet;
+}
+
+
+/* Code for mobile */
+
+@media screen and (max-width:576px){
+
+.nav-class ul {
+    display: none;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+.section1-right img{
+    width: 300px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects div img{
+    width: 200px;
+}
+
+.mobile-img {
+    display: block;
+}
+
+.left-section1 img {
+    display: block;  
+    margin: auto;
+
+}
+
+.left-section1 h2 {
+    display: block;
+}
+
+
+
+}
